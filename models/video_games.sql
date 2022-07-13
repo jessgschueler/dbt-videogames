@@ -9,7 +9,7 @@ game_scores as (
 video_games as (
     select * from game_scores
 
-    inner join game_sales using (game_id)
+    left join game_sales using (game_id)
 )
 
 select * FROM video_games
