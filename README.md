@@ -1,4 +1,4 @@
-## DBT ELT Video Game Data
+ ## DBT ELT Video Game Data
 
 #### by Jess Schueler
 
@@ -8,6 +8,8 @@
 
 ### Description 
 Introductory DBT pipeline, practice with multiple sources, data modelling, and dbt transformations. Gathers two data sets, one with sales data and another with metacritic score data and compiles basic dbt models.
+
+![Diagram](model-diagram.png)
 
 ### Known Bugs
 * none
